@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+
     // Smooth scrolling for navigation links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -31,6 +32,33 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
+    // -------- Certifications Modal --------
+    const certificationBadge = document.querySelector('.fa-certificate').closest('div');
+    const certificationModal = document.getElementById('certification-modal');
+    const closeCertificationBtn = document.getElementById('close-certification');
+
+    if (certificationBadge && certificationModal && closeCertificationBtn) {
+        certificationBadge.style.cursor = 'pointer';
+        certificationBadge.addEventListener('click', () => {
+            certificationModal.classList.remove('hidden');
+            document.body.classList.add('overflow-hidden');
+        });
+
+        closeCertificationBtn.addEventListener('click', () => {
+            certificationModal.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        });
+
+        // Close modal on background click
+        certificationModal.addEventListener('click', e => {
+            if (e.target === certificationModal) {
+                certificationModal.classList.add('hidden');
+                document.body.classList.remove('overflow-hidden');
+            }
+        });
+    }
+
 
     // Back to top button
     const backToTopButton = document.getElementById('back-to-top');
