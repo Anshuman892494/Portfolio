@@ -22,13 +22,13 @@
     <!-- Floating Navigation -->
     <nav class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md shadow-sm z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-blue-600 hover:text-blue-800 transition">Anshuman Verma</a>
+            <a href="#" class="text-3xl font-bold text-blue-600 hover:text-blue-800 transition">Anshuman Verma</a>
             <div class="hidden md:flex space-x-8">
-                <a href="#home" class="nav-link text-blue-900 hover:text-blue-600 transition">Home</a>
-                <a href="#about" class="nav-link text-blue-900 hover:text-blue-600 transition">About</a>
-                <a href="#skills" class="nav-link text-blue-900 hover:text-blue-600 transition">Skills</a>
-                <a href="#projects" class="nav-link text-blue-900 hover:text-blue-600 transition">Projects</a>
-                <a href="#contact" class="nav-link text-blue-900 hover:text-blue-600 transition">Contact</a>
+                <a href="#home" class="text-xl nav-link text-blue-900 hover:text-blue-600 transition">Home</a>
+                <a href="#about" class="text-xl nav-link text-blue-900 hover:text-blue-600 transition">About</a>
+                <a href="#skills" class="text-xl nav-link text-blue-900 hover:text-blue-600 transition">Skills</a>
+                <a href="#projects" class="text-xl nav-link text-blue-900 hover:text-blue-600 transition">Projects</a>
+                <a href="#contact" class="text-xl nav-link text-blue-900 hover:text-blue-600 transition">Contact</a>
             </div>
             <button id="mobile-menu-button" class="md:hidden text-blue-600 focus:outline-none">
                 <i class="fas fa-bars text-2xl"></i>
@@ -61,19 +61,21 @@
                     </p>
                     <div class="flex space-x-4">
                         <a href="#projects"
-                            class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition shadow-lg hover:shadow-xl">
+                            class="btn-transition bg-blue-600 text-white px-6 py-3 rounded-lg font-medium shadow-lg">
                             View My Work
                         </a>
                         <a href="#contact"
-                            class="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition shadow-lg hover:shadow-xl">
+                            class="btn-transition border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-medium shadow-lg">
                             Contact Me
                         </a>
                     </div>
                 </div>
                 <div class="md:w-1/2 flex justify-center">
-                    <div class="relative">
-                        <div class="w-84 h-84 md:w-80 md:h-80 bg-blue-600 rounded-full overflow-hidden shadow-2xl">
-                            <img src="anshu_img.png" alt="Anshuman Varma" class="w-full h-full object-cover" />
+                    <div class="relative profile-photo">
+                        <div
+                            class="w-84 h-84 md:w-80 md:h-80 bg-blue-600 rounded-full overflow-hidden shadow-2xl transition-all duration-500 ease-in-out hover:shadow-[0_0_40px_5px_rgba(37,99,235,0.6)] hover:scale-105">
+                            <img src="anshu_img.png" alt="Anshuman Varma"
+                                class="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-110" />
                         </div>
                         <div class="absolute -bottom-5 -right-5 bg-white p-4 rounded-lg shadow-xl">
                             <div class="text-blue-600 text-2xl font-bold">1+</div>
@@ -89,7 +91,7 @@
     <section id="about" class="py-20 bg-white">
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-16">
-                About <span class="text-blue-600">Me...</span>
+                About <span class="text-blue-600">Me</span>
             </h2>
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">
@@ -105,32 +107,59 @@
                         experiences.
                     </p>
                     <p class="text-blue-900 mb-6 leading-relaxed">
-                        I specialize in building fast, user-friendly, and mobile-responsive websites and web applications using
-                        modern technologies including HTML, CSS, Tailwind CSS, React, Node.js, and various databases.
+                        I specialize in building fast, user-friendly, and mobile-responsive websites and web
+                        applications using modern technologies including HTML, CSS, Tailwind CSS, React, Node.js, and
+                        various databases. Alongside development, I also have one year of teaching experience in basic
+                        HTML, CSS, and JavaScript, where I helped students build a strong foundation in web development.
                     </p>
                     <p class="text-blue-900 mb-8 leading-relaxed">
-                        Outside of coding, I enjoy spending time in devotion, reading spiritual literature and novels, 
-                        and exploring ways to bring greater focus and creativity to my work. I’m also passionate about 
+                        Outside of coding, I enjoy spending time in devotion, reading spiritual literature and novels,
+                        and exploring ways to bring greater focus and creativity to my work. I’m also passionate about
                         learning new technologies and continuously improving my problem-solving and design skills.
                     </p>
                     <div class="flex flex-wrap gap-4">
-                        <div class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full flex items-center">
+                        <div
+                            class="info-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full flex items-center cursor-pointer transition-all duration-300">
                             <i class="fas fa-graduation-cap mr-2"></i>
                             <span>Computer Science </span>
                         </div>
-                        <div class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full flex items-center">
+                        <div
+                            class="info-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full flex items-center cursor-pointer transition-all duration-300">
                             <i class="fas fa-certificate mr-2"></i>
-                            <span>5+ Certifications</span>
+                            <span>2 Certifications</span>
                         </div>
-                        <div class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full flex items-center">
+                        <div
+                            class="info-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full flex items-center cursor-pointer transition-all duration-300">
                             <i class="fas fa-project-diagram mr-2"></i>
-                            <span>4 Projects</span>
+                            <a href="#projects"><span>4 Projects</span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Certification Modal -->
+    <div id="certification-modal" class="fixed inset-0 bg-black/50 flex items-center justify-center hidden z-50">
+        <div class="bg-white rounded-2xl shadow-2xl p-8 w-11/12 md:w-2/3 lg:w-1/2 relative animate-fadeIn">
+            <!-- Close Button -->
+            <button id="close-certification" class="absolute top-4 right-4 text-blue-600 hover:text-blue-800 text-2xl">
+                <i class="fas fa-times"></i>
+            </button>
+            <h2 class="text-3xl font-bold text-blue-900 mb-6 text-center">My Certifications</h2>
+            <br>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-blue-800">
+                <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                    <h3 class="text-xl font-semibold text-blue-900">DSA in Java</h3>
+                    <p class="text-sm mt-1">By Cipher School — 2025</p>
+                </div>
+                <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                    <h3 class="text-xl font-semibold text-blue-900">Cloud Computing</h3>
+                    <p class="text-sm mt-1">By NPTEL — 2025</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Skills Section -->
     <section id="skills" class="py-20 bg-blue-50">
@@ -142,9 +171,8 @@
                 I’ve worked with various technologies in web development. Here are some of my key skills and areas of
                 expertise.
             </p>
-
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-                <!-- Skill Item -->
+                <!-- HTML5 -->
                 <div
                     class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-2">
                     <div class="text-blue-600 text-4xl mb-4">
@@ -158,8 +186,7 @@
                         <div class="h-full bg-blue-600 rounded-full" style="width: 95%"></div>
                     </div>
                 </div>
-
-                <!-- Skill Item -->
+                <!-- Css -->
                 <div
                     class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-2">
                     <div class="text-blue-600 text-4xl mb-4">
@@ -173,12 +200,10 @@
                         <div class="h-full bg-blue-600 rounded-full" style="width: 90%"></div>
                     </div>
                 </div>
-
-                <!-- Skill Item -->
+                <!-- Tailwind -->
                 <div
                     class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-2">
                     <div class="text-blue-600 text-4xl mb-4">
-                        <!-- <i class="fab fa-css3-alt"></i> -->
                         <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" alt="Photoshop" width="40">
                     </div>
                     <h3 class="text-xl font-semibold text-blue-900 mb-2">Tailwind</h3>
@@ -189,8 +214,7 @@
                         <div class="h-full bg-blue-600 rounded-full" style="width: 90%"></div>
                     </div>
                 </div>
-
-                <!-- Skill Item -->
+                <!-- JavaScript -->
                 <div
                     class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-2">
                     <div class="text-blue-600 text-4xl mb-4">
@@ -204,8 +228,7 @@
                         <div class="h-full bg-blue-600 rounded-full" style="width: 80%"></div>
                     </div>
                 </div>
-
-                <!-- Skill Item -->
+                <!-- React -->
                 <div
                     class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-2">
                     <div class="text-blue-600 text-4xl mb-4">
@@ -217,8 +240,7 @@
                         <div class="h-full bg-blue-600 rounded-full" style="width: 70%"></div>
                     </div>
                 </div>
-
-                <!-- Skill Item -->
+                <!-- Node.js -->
                 <div
                     class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-2">
                     <div class="text-blue-600 text-4xl mb-4">
@@ -230,8 +252,7 @@
                         <div class="h-full bg-blue-600 rounded-full" style="width: 70%"></div>
                     </div>
                 </div>
-
-                <!-- Skill Item -->
+                <!-- MongoDB -->
                 <div
                     class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-2">
                     <div class="text-blue-600 text-4xl mb-4">
@@ -243,37 +264,34 @@
                         <div class="h-full bg-blue-600 rounded-full" style="width: 50%"></div>
                     </div>
                 </div>
-
-                <!-- Skill Item -->
+                <!-- Git -->
                 <div
                     class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-2">
                     <div class="text-blue-600 text-4xl mb-4">
                         <i class="fab fa-git-alt"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-blue-900 mb-2">Git</h3>
-                    <p class="text-blue-800">Version control, GitHub, GitLab</p>
+                    <p class="text-blue-800">Version control, GitLab</p>
                     <div class="mt-4 h-2 bg-blue-100 rounded-full">
                         <div class="h-full bg-blue-600 rounded-full" style="width: 65%"></div>
                     </div>
                 </div>
-
-                <!-- Skill Item -->
+                <!-- GitHub -->
                 <div
                     class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-2">
                     <div class="text-blue-600 text-4xl mb-4">
-                        <i class="fas fa-mobile-alt"></i>
+                        <i class="fab fa-github"></i>
                     </div>
-                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Responsive</h3>
-                    <p class="text-blue-800">Mobile-first design, media queries</p>
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">GitHub</h3>
+                    <p class="text-blue-800">Contributions and collaborative development work</p>
                     <div class="mt-4 h-2 bg-blue-100 rounded-full">
                         <div class="h-full bg-blue-600 rounded-full" style="width: 75%"></div>
                     </div>
                 </div>
-                <!-- Skill Item -->
+                <!-- Photoshop -->
                 <div
                     class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:-translate-y-2">
                     <div class="text-blue-600 text-4xl mb-4">
-                        <!-- <i class="fas fa-image"></i> -->
                         <img src="https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg" alt="Photoshop"
                             width="40">
                     </div>
@@ -297,7 +315,6 @@
                 Here are some of my recent projects. Each one was built to solve a
                 specific problem or explore new technologies.
             </p>
-
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 <!-- Project 1 -->
@@ -439,7 +456,7 @@
                             <label for="subject" class="block text-blue-900 font-medium mb-2">Subject</label>
                             <input type="text" id="subject" name="subject"
                                 class="w-full px-4 py-3 rounded-lg border border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                                placeholder="Project Inquiry" required />
+                                placeholder="Inquiry" required />
                         </div>
                         <div>
                             <label for="message" class="block text-blue-900 font-medium mb-2">Message</label>
@@ -542,9 +559,7 @@
         class="fixed bottom-8 right-8 bg-blue-600 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition opacity-0 invisible hover:bg-blue-700">
         <i class="fas fa-arrow-up"></i>
     </button>
-
     <script src="script.js"></script>
 </body>
-
 
 </html>
