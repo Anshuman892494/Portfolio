@@ -51,7 +51,7 @@ Footer	Quick navigation and copyright
 🧩 Live Demo
 
 🔗 View Live
-[ (Replace with your deployment link)
+[ (Live Link)
 ](https://portfolio-two-neon-ptwivbx5is.vercel.app/)
 
 🧠 Future Enhancements
