@@ -1,81 +1,82 @@
-🌐 Portfolio — Anshuman Varma
+# 🌐 Portfolio — Anshuman Varma
 
 A modern, responsive, and elegant personal portfolio website built using HTML, Tailwind CSS, and JavaScript.
 It showcases my skills, projects, and contact information in a clean and interactive layout.
 
-🚀 Features
+---
 
-🎨 Modern UI — Built with Tailwind CSS for a sleek, responsive design
+## 🚀 Features
 
-📱 Fully Responsive — Works seamlessly across all devices
+🎨 **Modern UI** — Built with Tailwind CSS for a sleek, responsive design  
+📱 **Fully Responsive** — Works seamlessly across all devices  
+🧭 **Smooth Navigation** — Animated scroll and mobile-friendly navigation bar  
+⚡ **Animated Elements** — Subtle fade-in effects for skills and project cards  
+💌 **Contact Form Integration** — Working contact form via Formspree  
+🔝 **Back to Top Button** — Smooth scroll to top functionality  
+🧠 **Optimized Structure** — Clean, well-commented, and modular code  
 
-🧭 Smooth Navigation — Animated scroll and mobile-friendly navigation bar
+---
 
-⚡ Animated Elements — Subtle fade-in effects for skills and project cards
+## 🛠️ Built With
 
-💌 Contact Form Integration — Working contact form via Formspree
+- **HTML5** – Semantic markup
+- **Tailwind CSS** – Utility-first CSS framework
+- **JavaScript (ES6+)** – For animations and interactivity
+- **Font Awesome** – Iconography
+- **Formspree** – Contact form backend
 
-🔝 Back to Top Button — Smooth scroll to top functionality
+---
 
-🧠 Optimized Structure — Clean, well-commented, and modular code
+## 📂 Project Structure
 
-🛠️ Built With
-
-HTML5 – Semantic markup
-
-Tailwind CSS – Utility-first CSS framework
-
-JavaScript (ES6+) – For animations and interactivity
-
-Font Awesome – Iconography
-
-Formspree – Contact form backend
-
-📂 Project Structure
 portfolio/
 │
-├── index.html        # Main HTML file (structure of the website)
-├── styles.css        # Custom styling with animations and effects
-├── script.js         # JavaScript for interactivity
-├── favicon.png       # Website icon (optional)
-└── assets/           # (Optional) Add your images, resume, etc.
+├── index.html # Main HTML file (structure of the website)
+├── styles.css # Custom styling with animations and effects
+├── script.js # JavaScript for interactivity
+├── favicon.png # Website icon (optional)
+└── assets/ # (Optional) Add your images, resume, etc.
 
-💡 Key Sections
-Section	Description
-Home	Hero section with intro and call-to-action buttons
-About	Short bio, experience, and education
-Skills	Interactive skill cards with progress bars
-Projects	Portfolio showcase with live links and source code
-Contact	Contact form and social links
-Footer	Quick navigation and copyright
-🧩 Live Demo
+---
 
-🔗 View Live
-[ (Live Link)
-](https://portfolio-two-neon-ptwivbx5is.vercel.app/)
+## 💡 Key Sections
 
-🧠 Future Enhancements
+| Section | Description |
+|---------|-------------|
+| **Home** | Hero section with intro and call-to-action buttons |
+| **About** | Short bio, experience, and education |
+| **Skills** | Interactive skill cards with progress bars |
+| **Projects** | Portfolio showcase with live links and source code |
+| **Contact** | Contact form and social links |
+| **Footer** | Quick navigation and copyright |
 
-Add dark mode toggle
+---
 
-Integrate email sending via API
+## 🧩 Live Demo
 
-Add project filtering by tech stack
+🔗 **View Live**: [https://portfolio-two-neon-ptwivbx5is.vercel.app/](https://portfolio-two-neon-ptwivbx5is.vercel.app/)
 
-Convert to React-based portfolio
+---
 
-🤝 Connect with Me
+## 🧠 Future Enhancements
 
-🌍 Portfolio: anshumanvarma.me
+- Add dark mode toggle
+- Integrate email sending via API
+- Add project filtering by tech stack
+- Convert to React-based portfolio
 
-💼 LinkedIn: linkedin.com/in/anshuman-varma
+---
 
-🧑‍💻 GitHub: Anshuman892494
+## 🤝 Connect with Me
 
-📷 Instagram: @anshuman_verma_anshu
+🌍 **Portfolio**: [anshumanvarma.me](https://anshumanvarma.me)  
+💼 **LinkedIn**: [linkedin.com/in/anshuman-varma](https://linkedin.com/in/anshuman-varma)  
+🧑‍💻 **GitHub**: [Anshuman892494](https://github.com/Anshuman892494)  
+📷 **Instagram**: [@anshuman_verma_anshu](https://instagram.com/anshuman_verma_anshu)  
+✉️ **Email**: [anshumanverma9795@gmail.com](mailto:anshumanverma9795@gmail.com)
 
-✉️ Email: anshumanverma9795@gmail.com
+---
 
-🪶 License
+## 🪶 License
 
 This project is licensed under the MIT License — feel free to use and modify it with credit.
