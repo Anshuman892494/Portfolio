@@ -29,6 +29,7 @@ It showcases my skills, projects, and contact information in a clean and interac
 
 ## 📂 Project Structure
 
+```
 portfolio/
 │
 ├── index.html # Main HTML file (structure of the website)
@@ -36,20 +37,7 @@ portfolio/
 ├── script.js # JavaScript for interactivity
 ├── favicon.png # Website icon (optional)
 └── assets/ # (Optional) Add your images, resume, etc.
-
----
-
-## 💡 Key Sections
-
-| Section | Description |
-|---------|-------------|
-| **Home** | Hero section with intro and call-to-action buttons |
-| **About** | Short bio, experience, and education |
-| **Skills** | Interactive skill cards with progress bars |
-| **Projects** | Portfolio showcase with live links and source code |
-| **Contact** | Contact form and social links |
-| **Footer** | Quick navigation and copyright |
-
+```
 ---
 
 ## 🧩 Live Demo
@@ -70,7 +58,7 @@ portfolio/
 ## 🤝 Connect with Me
 
 🌍 **Portfolio**: [anshumanvarma.me](https://anshumanvarma.me)  
-💼 **LinkedIn**: [linkedin.com/in/anshuman-varma](https://linkedin.com/in/anshuman-varma)  
+💼 **LinkedIn**: [[linkedin.com/in/anshuman-varma](https://www.linkedin.com/in/anshuman892494/)](https://www.linkedin.com/in/anshuman892494/)  
 🧑‍💻 **GitHub**: [Anshuman892494](https://github.com/Anshuman892494)  
 📷 **Instagram**: [@anshuman_verma_anshu](https://instagram.com/anshuman_verma_anshu)  
 ✉️ **Email**: [anshumanverma9795@gmail.com](mailto:anshumanverma9795@gmail.com)
