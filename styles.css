@@ -6,81 +6,88 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Navigation link animation */
+/* Navigation link underline animation */
 .nav-link {
     position: relative;
+    text-decoration: none;
 }
 
 .nav-link::after {
-    content: '';
+    content: "";
     position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -4px;
     left: 0;
-    background-color: #3b82f6;
-    /* blue-500 */
-    transition: width 0.3s ease;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background-color: #4f46e5;
+    /* indigo */
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
 }
 
 .nav-link:hover::after {
-    width: 100%;
+    transform: scaleX(1);
 }
 
-
-/* Smooth animated linear background transition for buttons */
+/* Common button style */
 .btn-transition {
-    background: linear-gradient(90deg, #2563eb, #1d4ed8, #2563eb);
-    /* repeating blue gradient */
-    background-size: 300% 100%;
-    /* makes the gradient movable */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
     color: white;
+    background: linear-gradient(90deg,
+            #4f46e5,
+            #4338ca,
+            #4f46e5);
+    /* indigo gradient */
+    background-size: 300% 100%;
     transition: all 0.5s ease-in-out;
-    background-position: left center;
 }
 
+/* Hover animation */
 .btn-transition:hover {
     background-position: right center;
-    /* smooth animated color shift */
-    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
+    box-shadow: 0 8px 25px rgba(79, 70, 229, 0.4);
+    /* indigo shadow */
     transform: scale(1.03);
 }
 
-/* For outlined button variant */
-.btn-transition.border-2 {
-    background: linear-gradient(90deg, #ffffff, #ffffff);
-    color: #2563eb;
-    border: 2px solid #2563eb;
-    transition: all 0.6s ease-in-out;
+/* Outlined button variant */
+.btn-transition.outline {
+    background: white;
+    color: #4f46e5;
+    border: 2px solid #4f46e5;
 }
 
-.btn-transition.border-2:hover {
-    background: linear-gradient(90deg, #2563eb, #1d4ed8, #2563eb);
+/* Hover for outlined button */
+.btn-transition.outline:hover {
+    background: linear-gradient(90deg,
+            #4f46e5,
+            #4338ca,
+            #4f46e5);
+    color: white;
+    border-color: transparent;
     background-size: 300% 100%;
-    color: white;
-    border-color: transparent;
-    background-position: right center;
-    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
+    box-shadow: 0 8px 25px rgba(79, 70, 229, 0.4);
     transform: scale(1.03);
-}
-
-.btn-transition.border-2:hover {
-    background: linear-gradient(90deg, #2563eb, #1e40af);
-    color: white;
-    border-color: transparent;
 }
 
 /* Stylish shadow + hover animation for info badges */
 .info-badge {
-    box-shadow: 0 3px 6px rgba(37, 99, 235, 0.15);
+    box-shadow: 0 3px 6px rgba(79, 70, 229, 0.15);
     transition: all 0.4s ease-in-out;
 }
 
 .info-badge:hover {
     transform: translateY(-4px) scale(1.05);
-    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
-    background: linear-gradient(90deg, #dbeafe, #bfdbfe);
-    /* soft blue gradient */
+    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
+    background: linear-gradient(90deg,
+            #e0e7ff,
+            #c7d2fe);
+    /* soft indigo gradient */
 }
 
 .info-badge i {
